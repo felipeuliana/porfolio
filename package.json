@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "dev": "next dev",
     "lint": "next lint",
+    "prepare": "husky install",
+    "start": "next start",
     "test": "vitest"
   },
   "dependencies": {
@@ -16,6 +17,8 @@
     "autoprefixer": "10.4.14",
     "eslint": "^8.45.0",
     "eslint-config-next": "13.4.10",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
     "next": "13.4.10",
     "postcss": "8.4.26",
     "react": "18.2.0",
