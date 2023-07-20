@@ -7,16 +7,18 @@
     "standard-with-typescript",
     "next/core-web-vitals",
     "plugin:react/recommended",
-    "plugin:react/jsx-runtime"
+    "plugin:react/jsx-runtime",
+    "plugin:storybook/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": "latest",
-    "project": ["./tsconfig.json"],
+    "project": [
+      "./tsconfig.json"
+    ],
     "sourceType": "module"
   },
   "plugins": [
     "react"
   ],
-  "rules": {
-  }
+  "rules": {}
 }
