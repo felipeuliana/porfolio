@@ -1,0 +1,23 @@
+import { render } from '@testing-library/react'
+import {{pascalCase name}} from '.'
+
+describe('{{pascalCase name}} component', () => {
+  it('should render by default', () => {
+    const { container } = render(
+      <{{pascalCase name}} />
+    )
+
+    expect(container).toMatchSnapshot()
+  })
+
+  it('should render with children', () => {
+    const { getByText } = render(
+      <{{pascalCase name}}>
+        <span>Children</span>
+      </{{pascalCase name}}>
+    )
+    const children = getByText(/children/i)
+
+    expect(children).toBeInTheDocument()
+  })
+})
