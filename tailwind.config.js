@@ -14,6 +14,21 @@ module.exports = {
         'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
       }
     },
+    colors: {
+      current: 'currentColor',
+      transparent: 'transparent',
+      primary: '#c3545f',
+      secondary: '#f19e47',
+      neutral: '#9eaba3',
+      dark: {
+        background: '#3e3e4a',
+        text: '#f6f7f6'
+      },
+      light: {
+        background: '#f6f7f6',
+        text: '#3e3e4a'
+      }
+    },
     fontFamily: {
       sans: ['var(--font-fira-sans)', ...defaultTheme.fontFamily.sans],
       serif: ['var(--font-merriweather)', ...defaultTheme.fontFamily.serif],
