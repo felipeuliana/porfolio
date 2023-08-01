@@ -1,10 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 
-const defaultTheme = require('tailwindcss/defaultTheme')
+import defaultTheme from 'tailwindcss/defaultTheme'
 
-module.exports = {
+export default {
   content: [
-    './src/**/*.{js,ts,jsx,tsx,mdx}'
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/stories/**/*.stories.{js,ts,jsx,tsx,mdx}'
   ],
   theme: {
     extend: {
@@ -19,15 +22,9 @@ module.exports = {
       transparent: 'transparent',
       primary: '#c3545f',
       secondary: '#f19e47',
-      neutral: '#9eaba3',
-      dark: {
-        background: '#3e3e4a',
-        text: '#f6f7f6'
-      },
-      light: {
-        background: '#f6f7f6',
-        text: '#3e3e4a'
-      }
+      dark: '#3e3e4a',
+      light: '#f6f7f6',
+      neutral: '#9eaba3'
     },
     fontFamily: {
       sans: ['var(--font-fira-sans)', ...defaultTheme.fontFamily.sans],
