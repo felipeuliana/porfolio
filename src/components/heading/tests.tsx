@@ -51,7 +51,9 @@ describe('Heading component', () => {
   })
 
   it('should display the neutral style', () => {
-    const { getByRole } = render(<Heading color='neutral'>With neutral style</Heading>)
+    const { getByRole } = render(
+      <Heading color='neutral'>With neutral style</Heading>
+    )
     const withNeutralStyle = getByRole('heading')
 
     expect(withNeutralStyle).toMatchInlineSnapshot(`
