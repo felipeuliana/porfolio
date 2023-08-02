@@ -1,9 +1,11 @@
-import Heading from '@/components/heading'
 import Body from '@/components/body'
+import Caption from '@/components/caption'
+import Heading from '@/components/heading'
 // COMPONENT IMPORTS
 
 export {
-  Heading,
-  Body
+  Body,
+  Caption,
+  Heading
 // COMPONENT EXPORTS
 }
