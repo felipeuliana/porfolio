@@ -6,7 +6,7 @@
     "build": "next build",
     "build:storybook": "storybook build",
     "dev": "next dev",
-    "generate": "yarn plop --plopfile .plop/generator.mjs",
+    "generate": "plop --plopfile .plop/generator.mjs",
     "lint": "next lint",
     "prepare": "husky install",
     "start": "next start",
