@@ -28,7 +28,7 @@ describe('Heading component', () => {
 
     expect(withDarkStyle).toMatchInlineSnapshot(`
       <h1
-        class="font-serif font-bold text-dark text-5xl"
+        class="font-bold font-serif text-dark text-5xl font-normal "
       >
         With dark style
       </h1>
@@ -43,7 +43,7 @@ describe('Heading component', () => {
 
     expect(withLightStyle).toMatchInlineSnapshot(`
       <h1
-        class="font-serif font-bold text-light text-5xl"
+        class="font-bold font-serif text-light text-5xl font-normal "
       >
         With light style
       </h1>
@@ -58,7 +58,7 @@ describe('Heading component', () => {
 
     expect(withNeutralStyle).toMatchInlineSnapshot(`
       <h1
-        class="font-serif font-bold text-neutral text-5xl"
+        class="font-bold font-serif text-neutral text-5xl font-normal "
       >
         With neutral style
       </h1>

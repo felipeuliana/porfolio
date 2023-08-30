@@ -22,7 +22,7 @@ describe('Body component', () => {
 
     expect(withDefaultStyle).toMatchInlineSnapshot(`
       <p
-        class="font-sans mb-8 text-dark text-base"
+        class="font-sans mb-8 text-dark text-base font-normal "
         role="paragraph"
       >
         With default style.
@@ -36,7 +36,7 @@ describe('Body component', () => {
 
     expect(withBigStyle).toMatchInlineSnapshot(`
       <p
-        class="font-sans mb-8 text-dark text-xl"
+        class="font-sans mb-8 text-dark text-xl font-normal "
         role="paragraph"
       >
         With big style.
@@ -50,7 +50,7 @@ describe('Body component', () => {
 
     expect(withLightStyle).toMatchInlineSnapshot(`
       <p
-        class="font-sans mb-8 text-light text-base"
+        class="font-sans mb-8 text-light text-base font-normal "
         role="paragraph"
       >
         With light style.
@@ -64,7 +64,7 @@ describe('Body component', () => {
 
     expect(withNeutralStyle).toMatchInlineSnapshot(`
       <p
-        class="font-sans mb-8 text-neutral text-base"
+        class="font-sans mb-8 text-neutral text-base font-normal "
         role="paragraph"
       >
         With neutral style.

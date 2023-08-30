@@ -8,7 +8,7 @@ describe('Caption component', () => {
 
     expect(captionAsSmall).toMatchInlineSnapshot(`
       <small
-        class="font-sans text-sm text-neutral"
+        class="font-sans text-sm text-neutral font-normal "
         role="caption"
       >
         Caption as small.
@@ -24,7 +24,7 @@ describe('Caption component', () => {
 
     expect(captionAsSpan).toMatchInlineSnapshot(`
       <span
-        class="font-sans text-sm text-neutral"
+        class="font-sans text-sm text-neutral font-normal "
         role="caption"
       >
         Caption as span.
@@ -40,7 +40,7 @@ describe('Caption component', () => {
 
     expect(withDefaultStyle).toMatchInlineSnapshot(`
       <small
-        class="font-sans text-sm text-neutral"
+        class="font-sans text-sm text-neutral font-normal "
         role="caption"
       >
         With default style.
@@ -56,7 +56,7 @@ describe('Caption component', () => {
 
     expect(withDarkStyle).toMatchInlineSnapshot(`
       <small
-        class="font-sans text-sm text-dark"
+        class="font-sans text-sm text-dark font-normal "
         role="caption"
       >
         With dark style.
@@ -71,7 +71,7 @@ describe('Caption component', () => {
 
     expect(withLightStyle).toMatchInlineSnapshot(`
       <small
-        class="font-sans text-sm text-light"
+        class="font-sans text-sm text-light font-normal "
         role="caption"
       >
         With light style.
